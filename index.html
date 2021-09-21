@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon-16x16.png mb-5">
+  <title>Frontend Developer | Angelika Kędzierska</title>
+  <meta name="keywords" content="Frontend , tworzenie stron internetowych ,portfolio ">
+  <meta name='description' content=" Tworzenie nowoczesnych stron internetowych .">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+  <script src="https://kit.fontawesome.com/327a0d490c.js" crossorigin="anonymous"></script>
+</head>
+<body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="66">
+  <!-- nawigacja -->
+  <nav id="navbar" class="navbar navbar-expand-xl position-fixed top-0 w-100">
+    <div class="container">
+      <a class="navbar-brand" href="#"> <i class="fas fa-laptop-code"></i> Angelika<span class="blue-text">
+          Kędzierska</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+        <div class="navbar-nav ms-auto">
+          <a class="nav-link active" href="#home">Home</a>
+          <a class="nav-link" href="#aboutme">o mnie</a>
+          <a class="nav-link" href="#portfolio">portfolio</a>
+          <a class="nav-link" href="#skills">Umiejętności</a>
+          <a class="nav-link" href="#hobby">Zainteresowania</a>
+          <a class="nav-link" href="#contact">kontakt</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <header id="home">
+    <div class="hero-img">
+      <div class="hero-shadow"></div>
+      <div class="hero-text">
+        <h1 data-aos="fade-up" data-aos-delay="200"> <span class="blue-text">Cześć! Mam na imię Angelika</span></h1>
+        <p data-aos="fade-up" data-aos-delay="400">I jestem przyszłym Frontend Developerem</p>
+        <a data-aos="fade-up" data-aos-delay="600" href="#aboutme" type="button" class="btn btn-outline-light">Poznaj
+          mnie!</a>
+      </div>
+      <a href="#aboutme">
+        <i class="fas fa-chevron-down bounce-top"></i></a>
+    </div>
+  </header>
+  <main>
+    <!-- aboutme -->
+    <section id="aboutme" class="aboutme bg-light py-5">
+      <h2>O mnie</h2>
+      <div class="underline"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-lg-6 align-self-center mb-5">
+            <div class="photo-container">
+              <img class="aboutme-photo" src="./img/ja-bitbucket.jpg" alt="photo of the author">
+            </div>
+          </div>
+          <div class="col-12 col-lg-6 m-auto aboutme-container">
+            <p class="aboutme-text">Nazywam się Angelika i od ponad pół roku stale poszerzam swoją wiedzę i umiejętności
+              oraz działam jako<span> freelancer. </span>Tworzenie w pełni spersonalizowanych oraz nowoczesnych stron
+              internetowych sprawia mi ogromną przyjemność oraz satysfakcję.</p>
+            <p class="aboutme-text">Dążę do poszerzania swoich kompetencji poprzez poznawanie najnowszych rozwiązań i
+              technologii programistycznych a także doskonalenia nabytych już umiejętności. Rozwój osobisty jest dla
+              mnie istotny ze względu na własną motywację oraz chęć tworzenia rozwiązań ułatwiających pracę. W
+              przyszłości chcę zostać<span> Full Stack Developerem.</span></p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- portfolio -->
+    <section id="portfolio" class="portfolio py-5 ">
+      <h2>Portfolio</h2>
+      <div class="underline"></div>
+      <div class="container d-flex justify-content-center">
+        <div class="card-group">
+          <div class="card ">
+            <img src="./img/binary-big.jpg" class="card-img-top " alt="portfolio">
+            <div class="card-body text-center">
+              <h5 class="card-title">Portfolio</h5>
+              <p class="card-text">Strona mojego portfolio oparta o Bootstrap 5.</p>
+            </div>
+            <div class="card-button  container text-center ">
+              <a href="https://github.com/AngelikaFrontEnd?tab=repositories" target="blank" class="btn ">Github</a>
+            </div>
+          </div>
+          <div class="card ">
+            <img src="./img/woman-big.jpg" class="card-img-top " alt="woman in pool">
+            <div class="card-body text-center">
+              <h5 class="card-title">Salon SPA</h5>
+              <p class="card-text">Strona oparta o Bootstrap 5, SCSS oraz JS. </p>
+            </div>
+            <div class="card-button container text-center ">
+              <a href="https://github.com/AngelikaFrontEnd?tab=repositories"target="blank" class="btn ">Github</a>
+              <a href="http://harmonyspa.online/" target="blank" class="btn">Live</a>
+            </div>
+          </div>
+        </div>
+    </section>
+    <!-- skills -->
+    <section id="skills" class="skills py-5 bg-light ">
+      <h2>Umiejętności</h2>
+      <div class="underline"></div>
+      <div class="container">
+        <div class="row text-center skills-list ">
+          <div class="col-6 col-md-4 mb-5 skills" data-aos="zoom-in" data-aos-delay="100">
+            <i class="fab fa-html5"></i>
+            <p class="skills-text">HTML 5</p>
+          </div>
+          <div class="col-6 col-md-4 mb-5 skills" data-aos="zoom-in" data-aos-delay="250">
+            <i class="fab fa-css3-alt"></i>
+            <p class="skills-text">CSS 3</p>
+          </div>
+          <div class="col-6 col-md-4 mb-5 skills" data-aos="zoom-in" data-aos-delay="600">
+            <i class="fab fa-sass"></i>
+            <p class="skills-text">SASS</p>
+          </div>
+          <div class="col-6 col-md-4 mb-5 skills" data-aos="zoom-in" data-aos-delay="700">
+            <i class="fab fa-bootstrap"></i>
+            <p class="skills-text">BOOTSTRAP</p>
+          </div>
+          <div class="col-6 col-md-4 mb-5 skills" data-aos="zoom-in" data-aos-delay="400">
+            <i class="fab fa-js-square"></i>
+            <p class="skills-text">JAVA SCRIPT</p>
+          </div>
+          <div class="col-6 col-md-4 mb-5 skills" data-aos="zoom-in" data-aos-delay="500">
+            <i class="fab fa-gulp"></i>
+            <p class="skills-text">GULP
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- hobby -->
+    <section id="hobby" class="hobby py-5">
+      <div class="container">
+        <h2>Zainteresowania</h2>
+        <div class="underline"></div>
+        <div class="row">
+          <div class=" col-6  col-md-4 mb-5  text-center hobby-hover">
+            <p><i class="fas fa-laptop-code"></i></p>
+            <p class="hobby-card-title ">Programowanie</p>
+          </div>
+          <div class=" col-6  col-md-4 mb-5  text-center hobby-hover">
+            <p><i class="fas fa-mountain"></i></p>
+            <p class="hobby-card-title ">Górskie podróże</p>
+          </div>
+          <div class=" col-6  col-md-4 mb-5 text-center hobby-hover">
+            <p><i class="fab fa-btc"></i></p>
+            <p class="hobby-card-title ">Blockchain i kryptowaluty</p>
+          </div>
+          <div class=" col-6 col-md-4 mb-5 text-center hobby-hover">
+            <p><i class="fas fa-chart-line"></i></p>
+            <p class="hobby-card-title ">Trading i rynki finansowe</p>
+          </div>
+          <div class=" col-6 col-md-4 mb-5  text-center hobby-hover">
+            <p><i class="fas fa-motorcycle"></i></p>
+            <p class="hobby-card-title ">Wycieczki motocyklowe</p>
+          </div>
+          <div class=" col-6 col-md-4 mb-5  text-center hobby-hover">
+            <p><i class="fas fa-chalkboard-teacher"></i></p>
+            <p class="hobby-card-title ">Udoskonalanie umiejętności</p>
+          </div>
+        </div>
+    </section>
+    <!-- contact -->
+    <section id="contact" class="contact py-5 ">
+      <h2>Kontakt</h2>
+      <div class="underline"></div>
+      <div class="container ">
+        <div class="row  contact-us justify-content-center text-center ">
+          <div class="col-sm-6 col-lg-4 contact-item order-1 ">
+            <h3>Dane do kontaktu</h3>
+            <p>Szuwarowa 4</p>
+            <p>30-384 Kraków</p>
+            <p>793 249 071</p>
+            <p>kedzierska93angelika@gmail.com</p>
+          </div>
+          <div class="col-lg-4 col-sm-6 order-0 order-lg-1 contact-item ">
+            <h3>Social media</h3>
+            <div class="social-media ">
+              <a href="https://github.com/AngelikaFrontEnd" target="blank"><i class="fab fa-github-square"></i></a>
+              <a href="https://www.linkedin.com/in/angelika-k%C4%99dzierska-61475a21b/" target="blank"><i
+                  class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="contact-shadow"></div>
+    </section>
+  </main>
+  <footer class=" footer text-center ">
+    <p class="mb-0"> &copy; 2021 Angelika Kędzierska</p>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous">
+  </script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="./js/aos.js"></script>
+  <script src="./js/script.js"></script>
+</body>
+</html>
