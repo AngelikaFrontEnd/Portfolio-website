@@ -1,19 +1,26 @@
-# Portfolio website
-***
-## My personal portfolio website based on Bootstrap 5.
+# 💻 Angelika Kędzierska |  Portfolio
+
+[![GitHub last commit](https://img.shields.io/github/last-commit/AngelikaFrontEnd/Portfolio-website)](https://github.com/AngelikaFrontEnd/Portfolio-website)
+[![GitHub stars](https://img.shields.io/github/stars/AngelikaFrontEnd/Portfolio-website)](https://github.com/AngelikaFrontEnd/Portfolio-website/stargazers)
 
 
-# Technologies Used
-***
-1. Bootstrap 5 
-2. HTML 5
-3. CSS 3 
-4. SASS 
-5.JavaScript 
+## ✨ Live Demo
+➡️ [View Live Portfolio](https://angelikakedzierska.website/)
 
 
-## 🎨 Projekt Figma
 
-Zapraszam do zapoznania się z prototypem w Figmie:
+## 🚀 Features
+- **Modern Responsive Design**: Perfectly adapted for all devices
+- **Performance Optimized**: Fast loading animations and assets
+- **Interactive Elements**: Engaging user experience
+- **Clean Code**: Semantic HTML and modular CSS
+- **SEO Friendly**: Proper meta tags and structure
 
-[🔗 Kliknij aby zobaczyć prototyp w Figmie](https://www.figma.com/proto/XKLnGQS4mnznHBvOmmawcR/PORTFOLIO?node-id=152-88&t=Z3zy0Bvt0NIcsSgq-1&scaling=min-zoom&content-scaling=fixed&page-id=144%3A19)
+## 🛠 Tech Stack
+<div align="left">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
+ <img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap">
+  <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
+</div>
