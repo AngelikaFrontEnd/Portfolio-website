@@ -1,8 +1,8 @@
 .card-body {
   flex: 1 1 auto;
-  padding: 1rem 1rem;
+  padding: 20px 20px ;
 }
-/* style.css - tylko klasy używane w index_deep.html */
+
 
 /* Globalne style */
 *,
@@ -26,6 +26,9 @@ body {
 h2 {
   text-align: center;
   text-transform: uppercase;
+}
+.font-14{
+  font-size: 14px;
 }
 
 .underline {
@@ -125,6 +128,8 @@ h2 {
     color: #039dff;
 }
 
+
+
 .shadow-bg {
   background-color: rgba(0, 0, 0, 0.8);
 }
@@ -163,7 +168,7 @@ header p {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 /* Dodatkowe poprawki dla Safari */
@@ -196,7 +201,7 @@ header p {
 
 
 .skill-list li {
-  margin-bottom: 0.5rem;
+  margin-bottom: 0;
 }
 
 /* Sekcja doświadczenia */
@@ -241,7 +246,7 @@ header p {
 
 .career-goals {
   background: rgba(52, 152, 219, 0.05);
-  padding: 15px;
+  padding: 40px;
   border-radius: 5px;
 }
 
@@ -289,7 +294,12 @@ header p {
 .features-list li {
   margin-bottom: 0.5rem;
 }
-
+.bold{
+  font-weight: 600;
+}
+.normal{
+  font-weight: 400;
+}
 /* Sekcja certyfikatów */
 .cert-card {
   border-radius: 0.5rem;
@@ -344,6 +354,7 @@ header p {
  font-size: 16px;
 
 }
+
 }
 
 @media (min-width: 768px) {
