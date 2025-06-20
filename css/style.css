@@ -47,6 +47,7 @@ h2 {
   text-transform: uppercase;
   z-index: 1;
   transition: color .6s;
+  text-align: center;
 }
 
 .navbar a,
@@ -368,9 +369,7 @@ header p {
 }
 
 @media (min-width: 992px) {
-  nav {
-    height: 66px;
-  }
+ 
   .navbar .navbar-brand {
     font-size: 1rem;
   }
@@ -391,5 +390,12 @@ header p {
   }
   header p {
     font-size: 30px;
+  }
+}
+
+@media (max-width: 640px) {
+.bg-color { 
+  background-color: rgba(0, 0, 0, 0.8);
+   
   }
 }
