@@ -1,0 +1,401 @@
+.card-body {
+  flex: 1 1 auto;
+  padding: 20px 20px ;
+}
+
+
+/* Globalne style */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-padding-top: 66px;
+}
+
+body {
+  position: relative;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #ebecf2;
+}
+
+h2 {
+  text-align: center;
+  text-transform: uppercase;
+}
+.font-14{
+  font-size: 14px;
+}
+
+.underline {
+  width: 60px;
+  height: 4px;
+  background-color: #039dff;
+  margin: 0 auto 30px;
+}
+
+.blue-text {
+  color: #039dff;
+}
+
+/* Nawigacja */
+.navbar {
+  text-transform: uppercase;
+  z-index: 1;
+  transition: color .6s;
+  text-align: center;
+}
+
+.navbar a,
+.navbar .fa-bars {
+  color: #fff;
+}
+
+.navbar a:hover {
+  color: #039dff;
+}
+
+.navbar .fa-bars {
+  padding: 10px;
+}
+
+.navbar .navbar-brand {
+  font-weight: bold;
+  margin-right: 0;
+  font-size: 0.85rem;
+}
+
+.navbar .active {
+  color: #039dff;
+}
+/* Niebieskie obramowanie dla aktywnego hamburgera */
+.navbar-toggler.active {
+    border: 2px solid #039dff !important;
+    border-radius: 4px;
+}
+
+/* Alternatywnie - jeśli chcesz stylować samą ikonę */
+.navbar-toggler .fa-bars.blue-border {
+    text-shadow: 
+        0 0 0 2px #039dff,
+        0 0 0 2px #039dff,
+        0 0 0 2px #039dff;
+    padding: 2px;
+    border-radius: 2px;
+}
+
+/* Domyślny styl ikony */
+.navbar-toggler .fa-bars {
+    transition: all 0.3s ease;
+    padding: 2px;
+}
+
+/* Efekt hover */
+.navbar-toggler:hover .fa-bars {
+    color: #039dff !important;
+}
+/* Domyślny styl hamburgera z czarnym obramowaniem */
+.navbar-toggler {
+    border: 2px solid #fff !important;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    padding: 0.25rem 0.5rem;
+}
+
+/* Efekt hover */
+.navbar-toggler:hover {
+    border-color: #039dff !important;
+}
+
+/* Podświetlenie na niebiesko po kliknięciu */
+.navbar-toggler.active {
+    border-color: #039dff !important;
+    box-shadow: 0 0 0 2px rgba(3, 157, 255, 0.3);
+}
+
+/* Styl ikony hamburgera */
+.navbar-toggler .fa-bars {
+    color: #fff;
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+}
+
+/* Zmiana koloru ikony po kliknięciu */
+.navbar-toggler.active .fa-bars {
+    color: #039dff;
+}
+
+
+
+.shadow-bg {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Nagłówek */
+header {
+  color: #fff;
+}
+
+header h1 {
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+header p {
+  font-size: 16px;
+}
+
+.hero-img {
+  position: relative;
+  height: 100vh;
+  background-image: url("../img/binary-small.jpg");
+  background-position: center;
+  background-size: cover;
+  z-index: 0;
+  
+  /* Fix dla iOS */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+.hero-shadow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Dodatkowe poprawki dla Safari */
+@supports (-webkit-touch-callout: none) {
+  .hero-img {
+    background-attachment: scroll !important;
+  }
+}
+
+.hero-text {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  text-align: center;
+  height: 100%;
+  z-index: 5;
+}
+
+.highlight-badges .badge {
+  margin: 0.25rem;
+}
+
+/* Sekcja umiejętności */
+.skill-card {
+  margin-bottom: 1.5rem;
+}
+
+
+
+.skill-list li {
+  margin-bottom: 0;
+}
+
+/* Sekcja doświadczenia */
+.exp-item {
+  margin-bottom: 2rem;
+}
+
+.exp-header {
+  margin-bottom: 1rem;
+}
+
+.exp-content {
+  margin-bottom: 1rem;
+}
+
+.achievements {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+}
+
+.tech-used .badge {
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Sekcja celów zawodowych */
+.profile-photo-container {
+  position: relative;
+  max-width: 350px;
+  margin: 0 auto;
+}
+
+.profile-photo {
+  border: 5px solid white;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+}
+
+.profile-photo:hover {
+  transform: scale(1.03);
+}
+
+.career-goals {
+  background: rgba(52, 152, 219, 0.05);
+  padding: 40px;
+  border-radius: 5px;
+}
+
+.hobby-icon-wrapper {
+  width: 80px;
+  height: 80px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+.hobby-card-title {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+}
+
+/* Sekcja portfolio */
+.portfolio .card {
+  margin-bottom: 1.5rem;
+}
+
+.portfolio .card-img-top {
+  height: 250px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.portfolio .card-body {
+  padding: 1.5rem;
+}
+
+.portfolio .btn {
+  margin-right: 0.5rem;
+}
+
+.features-list ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.features-list li {
+  margin-bottom: 0.5rem;
+}
+.bold{
+  font-weight: 600;
+}
+.normal{
+  font-weight: 400;
+}
+/* Sekcja certyfikatów */
+.cert-card {
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+/* Sekcja kontakt */
+.contact {
+  position: relative;
+  background-image: url(../img/poland-small.jpg);
+  background-position: center;
+  background-size: cover;
+  z-index: 0;
+}
+
+.contact-info {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 0.5rem;
+}
+
+.contact-form {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 0.5rem;
+}
+
+.contact-list li {
+  margin-bottom: 1rem;
+
+}
+
+/* Stopka */
+.footer {
+  background-color: rgba(0, 9, 27, 0.85);
+  color: #fff;
+  padding: 1rem 0;
+}
+
+/* Animacje */
+[data-aos] {
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+/* Responsywność */
+@media (min-width: 375px) {
+  header h1 {
+    font-size: 36px;
+  }
+  header p {
+    font-size: 16px;
+  }
+    .contact-list li {
+ font-size: 16px;
+
+}
+
+}
+
+@media (min-width: 768px) {
+  header h1 {
+    font-size: 42px;
+  }
+  header p {
+    font-size: 20px;
+  }
+
+}
+
+@media (min-width: 992px) {
+ 
+  .navbar .navbar-brand {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .hero-img {
+    background-image: url("../img/binary-big.jpg");
+  }
+  .contact {
+    background-image: url("../img/poland-big.jpg");
+  }
+}
+
+@media (min-width: 1600px) {
+  header h1 {
+    font-size: 50px;
+  }
+  header p {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 640px) {
+.bg-color { 
+  background-color: rgba(0, 0, 0, 0.8);
+   
+  }
+}
